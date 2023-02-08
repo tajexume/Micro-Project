@@ -1,1 +1,2 @@
-#Micro-Project \nproject for practicing creating microservices with Kubernetes, Docker, and Python
+# Micro-Project 
+project for practicing creating microservices with Kubernetes, Docker, and Python
