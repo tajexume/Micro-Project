@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
-        sh 'ls'
+        sh 'dir'
       }
     }
 
