@@ -7,9 +7,27 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Unit Tests') {
       steps {
-        sh 'ls -la'
+        sh 'echo Hello'
+      }
+    }
+
+    stage('Docker Build') {
+      steps {
+        sleep 2
+      }
+    }
+
+    stage('Push Image') {
+      steps {
+        pwd()
+      }
+    }
+
+    stage('Start Containers') {
+      steps {
+        echo 'Starting Container'
       }
     }
 
