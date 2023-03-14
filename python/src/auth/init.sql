@@ -13,4 +13,4 @@ CREATE TABLE user (
   password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO user (email, password) VALUES ('tajexume@email.com', 'Admin123');
+INSERT INTO user (email, password) VALUES ('tajexume@gmail.com', 'password123');

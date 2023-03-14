@@ -2,12 +2,12 @@ import os, requests
 
 
 def token(request):
-    if not "Authorization" in request.headers:
+    if "Authorization" not in request.headers:
         return None, ("missing credentials", 401)
 
-    token = request.headers["Authorization"]
+    val_token = request.headers["Authorization"]
 
-    if not token:
+    if not val_token:
         return None, ("missing credentials", 401)
 
     response = requests.post(
