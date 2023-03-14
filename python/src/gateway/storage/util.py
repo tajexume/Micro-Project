@@ -1,4 +1,6 @@
-import pika, json
+import pika
+import json
+
 
 def upload(f, fs, channel, access):
     try:
